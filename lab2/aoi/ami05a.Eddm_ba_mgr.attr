@@ -1,0 +1,6 @@
+A 5 u Eddm_ba_mgr 56cddd13292c.03.7f.00.01.01.00.64.b3 1 2 1 0
+V v 1 1 56cddd13292c.03.7f.00.01.01.01.64.b3
+F f 1 "ami05a.ba_1"
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "/home/jqp/eecs315/lab2/aoi/ami05a" 1 Eddm_design_viewpoint 56cddd1327ed.03.7f.00.01.01.00.64.b3 56cddd1327ec.03.7f.00.01.01.00.64.b3
