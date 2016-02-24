@@ -1,0 +1,21 @@
+* Component: /home/jqp/eecs315/lab2/dff  Viewpoint: ami05a
+.INCLUDE /home/jqp/eecs315/lab2/dff/ami05a/dff_ami05a.spi
+.LIB /mgc/adk3_1/technology/ic/models/VDD_5.mod
+.LIB /mgc/adk3_1/technology/ic/models/ami05.mod
+.PROBE TRAN V(D) V(CLK) V(Q) V(QB)
+
+VFORCE__D D GND pulse (0 5 0 1e-11 1e-11 1n 2n)
+
+VFORCE__CLK CLK GND pulse (0 5 0 1e-11 1e-11 1.01n 2.02n)
+
+
+
+
+.OPTION NOASCII
+.OPTION MODWL
+.OPTION ENGNOT
+.OPTION AEX
+
+.TEMP 27 
+
+.TRAN  0 100N 0n 
