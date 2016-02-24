@@ -1,0 +1,20 @@
+*
+* .CONNECT statements
+*
+.CONNECT GND 0
+
+
+* ELDO netlist generated with ICnet by 'jqp' on Mon Jan 25 2016 at 00:01:09
+
+*
+* Globals.
+*
+.global GND VDD
+
+*
+* MAIN CELL: Component pathname : /home/jqp/eecs315/lab1/inverter
+*
+        MN1 OUTPUT INPUT GND GND n L=2u W=5u
+        MP1 OUTPUT INPUT VDD VDD p L=2u W=10u
+*
+.end

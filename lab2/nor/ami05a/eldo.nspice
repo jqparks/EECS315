@@ -1,0 +1,16 @@
+* ELDO netlist generated with ICnet by 'jqp' on Tue Feb 23 2016 at 14:55:48
+
+*
+* Globals.
+*
+.global GND VDD
+
+*
+* MAIN CELL: Component pathname : /home/jqp/eecs315/lab2/nor
+*
+        MN2 OUTPUT INPUT2 GND GND n L=2u W=5u
+        MN1 OUTPUT INPUT1 GND GND n L=2u W=5u
+        MP2 N$4 INPUT1 VDD VDD p L=2u W=13u
+        MP1 OUTPUT INPUT2 N$4 VDD p L=2u W=13u
+*
+.end

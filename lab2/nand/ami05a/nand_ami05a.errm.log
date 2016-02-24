@@ -1,0 +1,4 @@
+START report: Mon Feb 22 21:40:25 2016 
+Warning: (eldo - 1615)  In file "./nand/ami05a/nand_ami05a.cir" line 21:
++   COMMAND ".TRAN": Tstep can not be <= 0.0.
++   It is set to Tmax/20.0 = 1.000e-08 s.

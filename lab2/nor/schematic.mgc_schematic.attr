@@ -1,0 +1,13 @@
+A 5 u mgc_schematic 56ca42bd5466.03.7f.00.01.01.00.26.e5 5 2 1 0
+V v 3 1 56ca43954f63.03.7f.00.01.01.00.26.e5
+F o 0 ""
+V v 4 1 56ca66e04269.03.7f.00.01.01.00.36.94
+F o 0 ""
+V v 5 1 56ca66e352d7.03.7f.00.01.01.00.36.94
+F o 0 ""
+O 5
+R cspuv 0 "/home/jqp/eecs315/lab2/nor/schematic/sheet1" 4 mgc_sheet 56ca66e352c3.03.7f.00.01.01.00.36.94 56ca42bd5495.03.7f.00.01.01.00.26.e5
+O 4
+R cspuv 0 "/home/jqp/eecs315/lab2/nor/schematic/sheet1" 3 mgc_sheet 56ca66e0425c.03.7f.00.01.01.00.36.94 56ca42bd5495.03.7f.00.01.01.00.26.e5
+O 3
+R cspuv 0 "/home/jqp/eecs315/lab2/nor/schematic/sheet1" 2 mgc_sheet 56ca43954f4f.03.7f.00.01.01.00.26.e5 56ca42bd5495.03.7f.00.01.01.00.26.e5

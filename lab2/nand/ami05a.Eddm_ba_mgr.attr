@@ -1,0 +1,6 @@
+A 5 u Eddm_ba_mgr 56ca477c91b4.03.7f.00.01.01.00.26.e5 1 2 1 0
+V v 1 1 56ca477c91b4.03.7f.00.01.01.01.26.e5
+F f 1 "ami05a.ba_1"
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "/home/jqp/eecs315/lab2/nand/ami05a" 1 Eddm_design_viewpoint 56ca477c90c7.03.7f.00.01.01.01.26.e5 56ca477c90c7.03.7f.00.01.01.00.26.e5

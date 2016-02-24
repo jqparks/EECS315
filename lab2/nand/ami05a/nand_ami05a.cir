@@ -1,0 +1,21 @@
+* Component: /home/jqp/eecs315/lab2/nand  Viewpoint: ami05a
+.INCLUDE /home/jqp/eecs315/lab2/nand/ami05a/nand_ami05a.spi
+.LIB /mgc/adk3_1/technology/ic/models/VDD_5.mod
+.LIB /mgc/adk3_1/technology/ic/models/ami05.mod
+.PROBE TRAN V(INPUT1) V(INPUT2) V(OUTPUT)
+
+VFORCE__INPUT1 INPUT1 GND pulse (0 5 0 1e-09 1e-09 50n 100n)
+
+VFORCE__INPUT2 INPUT2 GND pulse (0 5 0 1e-09 1e-09 25n 50n)
+
+
+
+
+.OPTION NOASCII
+.OPTION MODWL
+.OPTION ENGNOT
+.OPTION AEX
+
+.TEMP 27 
+
+.TRAN  0n 200n 0n 

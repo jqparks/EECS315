@@ -1,0 +1,20 @@
+* Component: /home/jqp/eecs315/lab1/inverter  Viewpoint: ami05a
+.INCLUDE /home/jqp/eecs315/lab1/inverter/ami05a/inverter_ami05a.spi
+.LIB /mgc/adk3_1/technology/ic/models/VDD_5.mod
+.LIB /mgc/adk3_1/technology/ic/models/ami05.mod
+.PROBE TRAN V(OUTPUT)
+.PROBE TRAN V(INPUT)
+
+VFORCE__INPUT INPUT GND pulse (0 5 0 1e-09 1e-09 25n 50n)
+
+
+
+
+.OPTION NOASCII
+.OPTION MODWL
+.OPTION ENGNOT
+.OPTION AEX
+
+.TEMP 27 
+
+.TRAN  0n 100N 0n 

@@ -1,0 +1,37 @@
+A 5 u Eddm_design_viewpoint 56ca65dd27a4.03.7f.00.01.01.00.36.94 9 2 41 0
+V v 7 4 56ccb8ee4f9b.03.7f.00.01.01.00.50.71
+F f 7 "ami05a.dvpt_7"
+F o 0 ""
+F o 0 ""
+F o 0 ""
+V v 8 4 56ccbdbfcc02.03.7f.00.01.01.00.50.71
+F f 8 "ami05a.dvpt_8"
+F o 0 ""
+F o 0 ""
+F o 0 ""
+V v 9 4 56ccbdc155a1.03.7f.00.01.01.00.50.71
+F f 9 "ami05a.dvpt_9"
+F o 0 ""
+F o 0 ""
+F o 0 ""
+O 9
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "/home/jqp/eecs315/lab2/nor/part" 1 Eddm_part 56ca435338f5.03.7f.00.01.01.01.26.e5 56ca435338f5.03.7f.00.01.01.00.26.e5
+R cspuv 1 "/home/jqp/eecs315/lab2/nor/schematic" 5 mgc_schematic 56ca66e352d7.03.7f.00.01.01.00.36.94 56ca42bd5466.03.7f.00.01.01.00.26.e5
+R cspuv 2 "/home/jqp/eecs315/lab2/nor/ami05a" 1 Eddm_ba_mgr 56ca65dd289a.03.7f.00.01.01.01.36.94 56ca65dd289a.03.7f.00.01.01.00.36.94
+R cspuv 3 "$ADK/technology/ic/symbols/pmos4/part" 1 Eddm_part 40edb88c70ab.03.93.22.46.d8.00.35.07 43349f1b0e00.03.93.22.46.d8.05.02.fa
+R cspuv 4 "$ADK/technology/ic/symbols/nmos4/part" 1 Eddm_part 40edb84b1b42.03.93.22.46.d8.00.35.07 43349f1b0dfe.03.93.22.46.d8.01.02.fa
+O 8
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "/home/jqp/eecs315/lab2/nor/part" 1 Eddm_part 56ca435338f5.03.7f.00.01.01.01.26.e5 56ca435338f5.03.7f.00.01.01.00.26.e5
+R cspuv 1 "/home/jqp/eecs315/lab2/nor/schematic" 5 mgc_schematic 56ca66e352d7.03.7f.00.01.01.00.36.94 56ca42bd5466.03.7f.00.01.01.00.26.e5
+R cspuv 2 "/home/jqp/eecs315/lab2/nor/ami05a" 1 Eddm_ba_mgr 56ca65dd289a.03.7f.00.01.01.01.36.94 56ca65dd289a.03.7f.00.01.01.00.36.94
+R cspuv 3 "$ADK/technology/ic/symbols/pmos4/part" 1 Eddm_part 40edb88c70ab.03.93.22.46.d8.00.35.07 43349f1b0e00.03.93.22.46.d8.05.02.fa
+R cspuv 4 "$ADK/technology/ic/symbols/nmos4/part" 1 Eddm_part 40edb84b1b42.03.93.22.46.d8.00.35.07 43349f1b0dfe.03.93.22.46.d8.01.02.fa
+O 7
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "/home/jqp/eecs315/lab2/nor/part" 1 Eddm_part 56ca435338f5.03.7f.00.01.01.01.26.e5 56ca435338f5.03.7f.00.01.01.00.26.e5
+R cspuv 1 "/home/jqp/eecs315/lab2/nor/schematic" 5 mgc_schematic 56ca66e352d7.03.7f.00.01.01.00.36.94 56ca42bd5466.03.7f.00.01.01.00.26.e5
+R cspuv 2 "/home/jqp/eecs315/lab2/nor/ami05a" 1 Eddm_ba_mgr 56ca65dd289a.03.7f.00.01.01.01.36.94 56ca65dd289a.03.7f.00.01.01.00.36.94
+R cspuv 3 "$ADK/technology/ic/symbols/pmos4/part" 1 Eddm_part 40edb88c70ab.03.93.22.46.d8.00.35.07 43349f1b0e00.03.93.22.46.d8.05.02.fa
+R cspuv 4 "$ADK/technology/ic/symbols/nmos4/part" 1 Eddm_part 40edb84b1b42.03.93.22.46.d8.00.35.07 43349f1b0dfe.03.93.22.46.d8.01.02.fa

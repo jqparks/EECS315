@@ -1,0 +1,4 @@
+START report: Mon Jan 25 00:01:10 2016 
+Warning: (eldo - 1615)  In file "./inverter/ami05a/inverter_ami05a.cir" line 20:
++   COMMAND ".TRAN": Tstep can not be <= 0.0.
++   It is set to Tmax/20.0 = 5.000e-09 s.

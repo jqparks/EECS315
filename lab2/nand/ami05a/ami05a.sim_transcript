@@ -1,0 +1,159 @@
+Obsolete option -64b ignored
+
+Running eldo on o405-u01
+with Eldo libraries :
+/mgc/anacad2009_2c/aol/lib/libeldoudm_64.so
+/mgc/anacad2009_2c/aol/lib/libeldomos1_64.so
+/mgc/anacad2009_2c/aol/lib/libeldoekv_64.so
+/mgc/anacad2009_2c/aol/lib/libeldomosp9_64.so
+/mgc/anacad2009_2c/aol/lib/libeldocsem_64.so
+/mgc/anacad2009_2c/aol/lib/libeldomos2_64.so
+/mgc/anacad2009_2c/aol/lib/libeldomos3_64.so
+/mgc/anacad2009_2c/aol/lib/libeldobip_64.so
+/mgc/anacad2009_2c/aol/lib/libeldodio_64.so
+/mgc/anacad2009_2c/aol/lib/libeldojfet_64.so
+/mgc/anacad2009_2c/aol/lib/libeldosoi_64.so
+/mgc/anacad2009_2c/aol/lib/libeldomos4_64.so
+/mgc/anacad2009_2c/aol/lib/libeldoasitft_64.so
+/mgc/anacad2009_2c/aol/lib/libeldohisim_64.so
+/mgc/anacad2009_2c/aol/lib/libeldospmod_64.so
+/mgc/anacad2009_2c/aol/lib/libeldopsp_64.so
+/mgc/anacad2009_2c/aol/lib/libeldomosvar_64.so
+/mgc/anacad2009_2c/aol/lib/libeldomoto_64.so
+/mgc/anacad2009_2c/aol/lib/libeldost_64.so
+/mgc/anacad2009_2c/aol/lib/libeldobnr_64.so
+/mgc/anacad2009_2c/aol/lib/libeldorockw_64.so
+/mgc/anacad2009_2c/aol/lib/libeldopubhicum_64.so
+/mgc/anacad2009_2c/aol/lib/libeldotftsh_64.so
+/mgc/anacad2009_2c/aol/lib/libeldobta_64.so
+/mgc/anacad2009_2c/aol/lib/libeldofas_64.so
+/mgc/anacad2009_2c/aol/lib/libeldofascm_64.so
+/mgc/anacad2009_2c/aol/lib/libeldosdsim_64.so
+/mgc/anacad2009_2c/aol/lib/libeldowire_64.so
+/mgc/anacad2009_2c/aol/lib/libogr_64.so loaded.
+
+
+
+              Software under License 
+       Copyright Mentor Graphics Corporation
+
+
+
+
+***** PRE-PROCESSING ...
+
+
+
+***** ANALYSIS ....
+
+
+***** 0  error(s). 
+***** 0  warning(s). 
+
+
+
+***** GENERATION ...
+
+Warning 1615: In file "./nand/ami05a/nand_ami05a.cir" line 21:
++   COMMAND ".TRAN": Tstep can not be <= 0.0.
++   It is set to Tmax/20.0 = 1.000e-08 s.
+
+***** 0  error(s). 
+***** 1  warning(s). 
+
+
+INFORMATION ABOUT COMPILATION...
+
+
+Memory space allocated (bytes): 127889408
+8 elements
+5 nodes
+5 input signals
+
+Eldo VERSION : ELDO 2009.2c (64 bits) Mon Jun  7 11:38:13 GMT 2010
+
+*** DATE: 22-Feb-2016 21:40:25
+
+*** TITLE: * Component: /home/jqp/eecs315/lab2/nand  Viewpoint: ami05a
+
+TEMPERATURE : 27.000000 degrees C
+
+
+Performing DC analysis...
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 010ms <***
+
+DC:2 iterations FOR DC analysis
+INPUT1        0.0000     
+INPUT2        0.0000     
+N$5           11.4295M   
+OUTPUT        5.0000     
+VDD           5.0000     
+
+   TOTAL POWER DISSIPATION:  25.3480P    WATTS
+
+
+Eldo NEWTON: VNTOL=1.000000e-06 RELTOL=1.000000e-03
+
+Connecting to JWDB server, please wait...
+connected to wdb server : -jwdbhost o405-u01 -jwdbport 39566
+
+Compute from 0.000000 Nano to 200.000000 Nano
+................................................
+Simulation progress           : 10% (t = 26.0000 N)
+Elapsed CPU time              :  0h  0mn  0s   0    ( 0h  0mn  0s   0)
+................................................
+Simulation progress           : 20% (t = 49.2043 N)
+Elapsed CPU time              :  0h  0mn  0s   0    ( 0h  0mn  0s   0)
+................................................
+Simulation progress           : 30% (t = 65.8302 N)
+Elapsed CPU time              :  0h  0mn  0s  10    ( 0h  0mn  0s  10)
+................................................
+Simulation progress           : 40% (t = 80.4401 N)
+Elapsed CPU time              :  0h  0mn  0s   0    ( 0h  0mn  0s  10)
+................................................
+Simulation progress           : 50% (t = 100.0000 N)
+Elapsed CPU time              :  0h  0mn  0s   0    ( 0h  0mn  0s  10)
+................................................
+Simulation progress           : 60% (t = 122.4379 N)
+Elapsed CPU time              :  0h  0mn  0s   0    ( 0h  0mn  0s  10)
+................................................
+Simulation progress           : 70% (t = 149.2096 N)
+Elapsed CPU time              :  0h  0mn  0s   0    ( 0h  0mn  0s  10)
+................................................
+Simulation progress           : 80% (t = 165.8305 N)
+Elapsed CPU time              :  0h  0mn  0s   0    ( 0h  0mn  0s  10)
+................................................
+Simulation progress           : 90% (t = 180.4401 N)
+Elapsed CPU time              :  0h  0mn  0s   0    ( 0h  0mn  0s  20)
+................................................
+Simulation progress           : 100% (t = 200.0000 N)
+Elapsed CPU time              :  0h  0mn  0s   0    ( 0h  0mn  0s  20)
+
+
+***>Current simulation completed
+
+
+
+
+SIMULATION INFORMATION 
+memory size allocated in bytes 131510272
+Latency: 0.000000%
+average number of newton iterations: 2.955882
+nb of components: 8
+nb of nodes: 5
+nb of MOS or BIP calls: 1731
+Number of steps computed: 193
+
+***>CPU TIME 0s 020ms <***
+
+***>MESSAGE SUMMARY: 1 warning
+
+***>GLOBAL CPU TIME 0s 040ms <***
+
+
+***>GLOBAL ELAPSED TIME 0s <***
+
+
