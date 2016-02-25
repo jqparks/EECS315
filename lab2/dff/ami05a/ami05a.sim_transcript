@@ -56,7 +56,7 @@ with Eldo libraries :
 
 Warning 1615: In file "./ami05a/dff_ami05a.cir" line 21:
 +   COMMAND ".TRAN": Tstep can not be <= 0.0.
-+   It is set to Tmax/20.0 = 1.000e-08 s.
++   It is set to Tmax/20.0 = 2.500e-06 s.
 
 ***** 0  error(s). 
 ***** 1  warning(s). 
@@ -72,7 +72,7 @@ Memory space allocated (bytes): 127885312
 
 Eldo VERSION : ELDO 2009.2c (64 bits) Mon Jun  7 11:38:13 GMT 2010
 
-*** DATE: 25-Feb-2016 09:34:28
+*** DATE: 25-Feb-2016 10:06:27
 
 *** TITLE: * Component: /home/jqp/eecs315/lab2/dff  Viewpoint: ami05a
 
@@ -112,39 +112,39 @@ VDD           5.0000
 Eldo NEWTON: VNTOL=1.000000e-06 RELTOL=1.000000e-03
 
 Connecting to JWDB server, please wait...
-connected to wdb server : -jwdbhost o405-u01 -jwdbport 46787
+connected to wdb server : -jwdbhost o405-u01 -jwdbport 45419
 
-Compute from 0.000000 Nano to 200.000000 Nano
+Compute from 0.000000 Nano to 5.000000E+04 Nano
 ................................................
-Simulation progress           : 10% (t = 20.0012 N)
-Elapsed CPU time              :  0h  0mn  0s 100    ( 0h  0mn  0s 100)
+Simulation progress           : 10% (t = 5.0000 U)
+Elapsed CPU time              :  0h  0mn  0s 410    ( 0h  0mn  0s 410)
 ................................................
-Simulation progress           : 20% (t = 40.0012 N)
-Elapsed CPU time              :  0h  0mn  0s  90    ( 0h  0mn  0s 190)
+Simulation progress           : 20% (t = 10.0000 U)
+Elapsed CPU time              :  0h  0mn  0s 410    ( 0h  0mn  0s 820)
 ................................................
-Simulation progress           : 30% (t = 60.0012 N)
-Elapsed CPU time              :  0h  0mn  0s  90    ( 0h  0mn  0s 280)
+Simulation progress           : 30% (t = 15.0000 U)
+Elapsed CPU time              :  0h  0mn  0s 410    ( 0h  0mn  1s 230)
 ................................................
-Simulation progress           : 40% (t = 80.0012 N)
-Elapsed CPU time              :  0h  0mn  0s  90    ( 0h  0mn  0s 370)
+Simulation progress           : 40% (t = 20.0000 U)
+Elapsed CPU time              :  0h  0mn  0s 420    ( 0h  0mn  1s 650)
 ................................................
-Simulation progress           : 50% (t = 100.0012 N)
-Elapsed CPU time              :  0h  0mn  0s  80    ( 0h  0mn  0s 450)
+Simulation progress           : 50% (t = 25.0000 U)
+Elapsed CPU time              :  0h  0mn  0s 410    ( 0h  0mn  2s  60)
 ................................................
-Simulation progress           : 60% (t = 120.0012 N)
-Elapsed CPU time              :  0h  0mn  0s  90    ( 0h  0mn  0s 540)
+Simulation progress           : 60% (t = 30.0000 U)
+Elapsed CPU time              :  0h  0mn  0s 410    ( 0h  0mn  2s 470)
 ................................................
-Simulation progress           : 70% (t = 140.0012 N)
-Elapsed CPU time              :  0h  0mn  0s  90    ( 0h  0mn  0s 630)
+Simulation progress           : 70% (t = 35.0000 U)
+Elapsed CPU time              :  0h  0mn  0s 400    ( 0h  0mn  2s 870)
 ................................................
-Simulation progress           : 80% (t = 160.0012 N)
-Elapsed CPU time              :  0h  0mn  0s  90    ( 0h  0mn  0s 720)
+Simulation progress           : 80% (t = 40.0000 U)
+Elapsed CPU time              :  0h  0mn  0s 420    ( 0h  0mn  3s 290)
 ................................................
-Simulation progress           : 90% (t = 180.0012 N)
-Elapsed CPU time              :  0h  0mn  0s 100    ( 0h  0mn  0s 820)
+Simulation progress           : 90% (t = 45.0000 U)
+Elapsed CPU time              :  0h  0mn  0s 410    ( 0h  0mn  3s 700)
 ................................................
-Simulation progress           : 100% (t = 200.0000 N)
-Elapsed CPU time              :  0h  0mn  0s  90    ( 0h  0mn  0s 910)
+Simulation progress           : 100% (t = 50.0000 U)
+Elapsed CPU time              :  0h  0mn  0s 410    ( 0h  0mn  4s 110)
 
 
 ***>Current simulation completed
@@ -155,19 +155,19 @@ Elapsed CPU time              :  0h  0mn  0s  90    ( 0h  0mn  0s 910)
 SIMULATION INFORMATION 
 memory size allocated in bytes 131665920
 Latency: 0.000000%
-average number of newton iterations: 2.817456
+average number of newton iterations: 3.055510
 nb of components: 32
 nb of nodes: 19
-nb of MOS or BIP calls: 364666
-Number of steps computed: 7201
+nb of MOS or BIP calls: 1618718
+Number of steps computed: 33524
 
-***>CPU TIME 0s 910ms <***
+***>CPU TIME 4s 110ms <***
 
 ***>MESSAGE SUMMARY: 1 warning
 
-***>GLOBAL CPU TIME 0s 950ms <***
+***>GLOBAL CPU TIME 4s 140ms <***
 
 
-***>GLOBAL ELAPSED TIME 2s <***
+***>GLOBAL ELAPSED TIME 5s <***
 
 

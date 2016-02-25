@@ -1,12 +1,12 @@
   Run on o405-u01 (Linux 3.13.0-79-generic)
 
-/mgc/anacad2009_2c/aol/bin/eldo_64.exe -i /home/jqp/eecs315/lab2/dff/ami05a/dff_ami05a.cir -o /home/jqp/eecs315/lab2/dff/ami05a/dff_ami05a.chi -nocou -gwl jwdb -wdb_folder -outname dff_ami05a_05 
+/mgc/anacad2009_2c/aol/bin/eldo_64.exe -i /home/jqp/eecs315/lab2/dff/ami05a/dff_ami05a.cir -o /home/jqp/eecs315/lab2/dff/ami05a/dff_ami05a.chi -nocou -gwl jwdb -wdb_folder -outname dff_ami05a_11 
 
 
 
 ***** PRE-PROCESSING ...
 
-1*******25-Feb-16 *******  ELDO 2009.2c (64 bits)  (v7.2_4.1)  *******09:34:28******
+1*******25-Feb-16 *******  ELDO 2009.2c (64 bits)  (v7.2_4.1)  *******10:06:27******
 
 0* Component: /home/jqp/eecs315/lab2/dff  Viewpoint: ami05a
 
@@ -20,7 +20,7 @@
     4  .CONNECT GND 0
     5  
     6  
-    7  * ELDO netlist generated with ICnet by 'jqp' on Thu Feb 25 2016 at 09:34:26
+    7  * ELDO netlist generated with ICnet by 'jqp' on Thu Feb 25 2016 at 10:06:25
     8  
     9  *
    10  * Globals.
@@ -144,11 +144,11 @@
    74  * ***temp fix*** .ENDL
    75  *END
     5  ** END OF LIBRARY /mgc/adk3_1/technology/ic/models/ami05.mod
-    5  .PROBE TRAN V(D) V(CLK) V(Q) V(QB)
+    5  .PROBE TRAN V(D) V(CLK) V(Q)
     6  
-    7  VFORCE__D D GND pulse (0 5 0 1e-11 1e-11 1.01n 2.02n)
+    7  VFORCE__D D GND pulse (0 5 0 1e-11 1e-11 101n 202n)
     8  
-    9  VFORCE__CLK CLK GND pulse (0 5 0 1e-11 1e-11 1n 2n)
+    9  VFORCE__CLK CLK GND pulse (0 5 0 1e-11 1e-11 100n 200n)
    10  
    11  
    12  
@@ -160,7 +160,7 @@
    18  
    19  .TEMP 27 
    20  
-   21  .TRAN  0 200n 90n 
+   21  .TRAN  0 50u 0 
    22  .END
 
 End of file 
@@ -175,7 +175,7 @@ End of file
 
 Warning 1615: In file "./ami05a/dff_ami05a.cir" line 21:
 +   COMMAND ".TRAN": Tstep can not be <= 0.0.
-+   It is set to Tmax/20.0 = 1.000e-08 s.
++   It is set to Tmax/20.0 = 2.500e-06 s.
 
 ***** 0  error(s). 
 ***** 1  warning(s). 
@@ -209,13 +209,13 @@ Total number of elements            32
 
 Eldo VERSION : ELDO 2009.2c (64 bits) Mon Jun  7 11:38:13 GMT 2010
 
-*** DATE: 25-Feb-2016 09:34:28
+*** DATE: 25-Feb-2016 10:06:27
 
 *** TITLE: * Component: /home/jqp/eecs315/lab2/dff  Viewpoint: ami05a
 
 TEMPERATURE : 27.000000 degrees C
 
-1***************25-Feb-2016 ***********************  ELDO 2009.2c (64 bits)  (v7.2_4.1)  ***********************09:34:28*****************
+1***************25-Feb-2016 ***********************  ELDO 2009.2c (64 bits)  (v7.2_4.1)  ***********************10:06:27*****************
 
 0* Component: /home/jqp/eecs315/lab2/dff
 0****                 MODELS PARAMETERS                                    TEMPERATURE =   27.000 DEG C
@@ -488,7 +488,7 @@ unit4 represents 1/degK^2
 
 
 
-1***************25-Feb-2016 ***********************  ELDO 2009.2c (64 bits)  (v7.2_4.1)  ***********************09:34:28*****************
+1***************25-Feb-2016 ***********************  ELDO 2009.2c (64 bits)  (v7.2_4.1)  ***********************10:06:27*****************
 
 0* Component: /home/jqp/eecs315/lab2/dff  Viewpoint: ami05a
 0****                 OPTION SUMMARY                                        TEMPERATURE =   27.000 DEG C
@@ -565,7 +565,7 @@ DC:12 iterations FOR DC analysis
 
 
 
-1***************25-Feb-2016 ***********************  ELDO 2009.2c (64 bits)  (v7.2_4.1)  ***********************09:34:28*****************
+1***************25-Feb-2016 ***********************  ELDO 2009.2c (64 bits)  (v7.2_4.1)  ***********************10:06:27*****************
 
 0* Component: /home/jqp/eecs315/lab2/dff  Viewpoint: ami05a
 0****                 INITIAL TRANSIENT SOLUTION                           TEMPERATURE =   27.000 DEG C
@@ -600,39 +600,39 @@ VFORCE__CLK   0.0000       0.0000       0.0000
 Eldo NEWTON: VNTOL=1.000000e-06 RELTOL=1.000000e-03
 
 ................................................
-Simulation progress           : 10% (t = 20.0012 N)
-Elapsed CPU time              :  0h  0mn  0s 100    ( 0h  0mn  0s 100)
+Simulation progress           : 10% (t = 5.0000 U)
+Elapsed CPU time              :  0h  0mn  0s 410    ( 0h  0mn  0s 410)
 ................................................
-Simulation progress           : 20% (t = 40.0012 N)
-Elapsed CPU time              :  0h  0mn  0s  90    ( 0h  0mn  0s 190)
+Simulation progress           : 20% (t = 10.0000 U)
+Elapsed CPU time              :  0h  0mn  0s 410    ( 0h  0mn  0s 820)
 ................................................
-Simulation progress           : 30% (t = 60.0012 N)
-Elapsed CPU time              :  0h  0mn  0s  90    ( 0h  0mn  0s 280)
+Simulation progress           : 30% (t = 15.0000 U)
+Elapsed CPU time              :  0h  0mn  0s 410    ( 0h  0mn  1s 230)
 ................................................
-Simulation progress           : 40% (t = 80.0012 N)
-Elapsed CPU time              :  0h  0mn  0s  90    ( 0h  0mn  0s 370)
+Simulation progress           : 40% (t = 20.0000 U)
+Elapsed CPU time              :  0h  0mn  0s 420    ( 0h  0mn  1s 650)
 ................................................
-Simulation progress           : 50% (t = 100.0012 N)
-Elapsed CPU time              :  0h  0mn  0s  80    ( 0h  0mn  0s 450)
+Simulation progress           : 50% (t = 25.0000 U)
+Elapsed CPU time              :  0h  0mn  0s 410    ( 0h  0mn  2s  60)
 ................................................
-Simulation progress           : 60% (t = 120.0012 N)
-Elapsed CPU time              :  0h  0mn  0s  90    ( 0h  0mn  0s 540)
+Simulation progress           : 60% (t = 30.0000 U)
+Elapsed CPU time              :  0h  0mn  0s 410    ( 0h  0mn  2s 470)
 ................................................
-Simulation progress           : 70% (t = 140.0012 N)
-Elapsed CPU time              :  0h  0mn  0s  90    ( 0h  0mn  0s 630)
+Simulation progress           : 70% (t = 35.0000 U)
+Elapsed CPU time              :  0h  0mn  0s 400    ( 0h  0mn  2s 870)
 ................................................
-Simulation progress           : 80% (t = 160.0012 N)
-Elapsed CPU time              :  0h  0mn  0s  90    ( 0h  0mn  0s 720)
+Simulation progress           : 80% (t = 40.0000 U)
+Elapsed CPU time              :  0h  0mn  0s 420    ( 0h  0mn  3s 290)
 ................................................
-Simulation progress           : 90% (t = 180.0012 N)
-Elapsed CPU time              :  0h  0mn  0s 100    ( 0h  0mn  0s 820)
+Simulation progress           : 90% (t = 45.0000 U)
+Elapsed CPU time              :  0h  0mn  0s 410    ( 0h  0mn  3s 700)
 ................................................
-Simulation progress           : 100% (t = 200.0000 N)
-Elapsed CPU time              :  0h  0mn  0s  90    ( 0h  0mn  0s 910)
+Simulation progress           : 100% (t = 50.0000 U)
+Elapsed CPU time              :  0h  0mn  0s 410    ( 0h  0mn  4s 110)
 
 
 
-1***************25-Feb-2016 ***********************  ELDO 2009.2c (64 bits)  (v7.2_4.1)  ***********************09:34:28*****************
+1***************25-Feb-2016 ***********************  ELDO 2009.2c (64 bits)  (v7.2_4.1)  ***********************10:06:27*****************
 
 0* Component: /home/jqp/eecs315/lab2/dff  Viewpoint: ami05a
 0****                 ACCOUNTING INFORMATION                                TEMPERATURE =   27.000 DEG C
@@ -654,34 +654,34 @@ Elapsed CPU time              :  0h  0mn  0s  90    ( 0h  0mn  0s 910)
 
     NUMTTP  NUMRTP  LTERTP  LTERTPNW NWNOCON
 
-      7201     189     189     189       0
+     33524     992     992     992       0
 
   DIGITAL  INWCALL    ITERNW   MEMSIZE
 
-        0    20833 2.817e+00  131665920
+        0   105476 3.056e+00  131665920
 
     NDEVCALL       NKIRCH  NMAXCALL      ITERM     LATENCY
 
-      364666            0         6   8.19e-01   0.000e+00%
+     1618718            0         7   8.91e-01   0.000e+00%
 
 
-  TRANSIENT JOB TIME                 0
+  TRANSIENT JOB TIME                 4
 
 
 
 
-***>CPU TIME 0s 910ms <***
+***>CPU TIME 4s 110ms <***
 
 ***>MESSAGE SUMMARY: 1 warning
 
-***>GLOBAL CPU TIME 0s 950ms <***
+***>GLOBAL CPU TIME 4s 140ms <***
 
 
-***>GLOBAL ELAPSED TIME 2s <***
+***>GLOBAL ELAPSED TIME 5s <***
 
 
-  Job started at 25-Feb-2016 09:34:28
-  Job end at     25-Feb-2016 09:34:30
+  Job started at 25-Feb-2016 10:06:26
+  Job end at     25-Feb-2016 10:06:31
 
   Run on o405-u01 (Linux 3.13.0-79-generic)
 

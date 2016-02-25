@@ -2,11 +2,11 @@
 .INCLUDE /home/jqp/eecs315/lab2/dff/ami05a/dff_ami05a.spi
 .LIB /mgc/adk3_1/technology/ic/models/VDD_5.mod
 .LIB /mgc/adk3_1/technology/ic/models/ami05.mod
-.PROBE TRAN V(D) V(CLK) V(Q) V(QB)
+.PROBE TRAN V(D) V(CLK) V(Q)
 
-VFORCE__D D GND pulse (0 5 0 1e-11 1e-11 1.01n 2.02n)
+VFORCE__D D GND pulse (0 5 0 1e-11 1e-11 101n 202n)
 
-VFORCE__CLK CLK GND pulse (0 5 0 1e-11 1e-11 1n 2n)
+VFORCE__CLK CLK GND pulse (0 5 0 1e-11 1e-11 100n 200n)
 
 
 
@@ -18,4 +18,4 @@ VFORCE__CLK CLK GND pulse (0 5 0 1e-11 1e-11 1n 2n)
 
 .TEMP 27 
 
-.TRAN  0 200n 90n 
+.TRAN  0 50u 0 

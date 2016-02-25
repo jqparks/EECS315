@@ -1,4 +1,4 @@
-START report: Thu Feb 25 09:34:28 2016 
+START report: Thu Feb 25 10:06:27 2016 
 Warning: (eldo - 1615)  In file "./ami05a/dff_ami05a.cir" line 21:
 +   COMMAND ".TRAN": Tstep can not be <= 0.0.
-+   It is set to Tmax/20.0 = 1.000e-08 s.
++   It is set to Tmax/20.0 = 2.500e-06 s.
