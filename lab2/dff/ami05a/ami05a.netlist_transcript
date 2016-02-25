@@ -34,8 +34,8 @@
 // NOTE: There is no part interface for the top level schematic.  The external nets in the schematic
 //       are being scanned to create the pin names for the top level subckt.
 Processing [/home/jqp/eecs315/lab2/dff] [dff/dff] [schematic]
-Primitive [$ADK/technology/ic/symbols/nmos4] [MG_STD/nmos3] [SPICE=PRIM] (NCF entry line:8 file:/mgc/adk3_1/technology/ic/symbols/nmos4/@ncf.dir/nmos4.ncf)
 Primitive [$ADK/technology/ic/symbols/pmos4] [MG_STD/pmos3] [SPICE=PRIM] (NCF entry line:8 file:/mgc/adk3_1/technology/ic/symbols/pmos4/@ncf.dir/pmos4.ncf)
+Primitive [$ADK/technology/ic/symbols/nmos4] [MG_STD/nmos3] [SPICE=PRIM] (NCF entry line:8 file:/mgc/adk3_1/technology/ic/symbols/nmos4/@ncf.dir/nmos4.ncf)
 
 **** Writing </home/jqp/eecs315/lab2/dff/ami05a> netlist for ELDO ****
 

@@ -56,7 +56,7 @@ with Eldo libraries :
 
 Warning 1615: In file "./ami05a/dff_ami05a.cir" line 21:
 +   COMMAND ".TRAN": Tstep can not be <= 0.0.
-+   It is set to Tmax/20.0 = 5.000e-09 s.
++   It is set to Tmax/20.0 = 1.000e-08 s.
 
 ***** 0  error(s). 
 ***** 1  warning(s). 
@@ -72,80 +72,79 @@ Memory space allocated (bytes): 127885312
 
 Eldo VERSION : ELDO 2009.2c (64 bits) Mon Jun  7 11:38:13 GMT 2010
 
-*** DATE: 24-Feb-2016 15:33:36
+*** DATE: 25-Feb-2016 09:34:28
 
 *** TITLE: * Component: /home/jqp/eecs315/lab2/dff  Viewpoint: ami05a
 
 TEMPERATURE : 27.000000 degrees C
 
-Warning: positive bias on Bulk for NMOS MN13
 
 Performing DC analysis...
 
 --> Partitioning circuit...
 
-***> DC CPU TIME 0s 000ms <***
+***> DC CPU TIME 0s 010ms <***
 
-DC:21 iterations FOR DC analysis
-BCLK          1.8958     
-BCLK-         4.8403     
+DC:12 iterations FOR DC analysis
+BCLK          3.9074N    
+BCLK-         5.0000     
 CLK           0.0000     
 D             0.0000     
 N$10          5.0000     
 N$101         5.0000     
 N$12          5.0000     
-N$22          4.9925     
-N$24          2.9200     
+N$22          4.9998     
+N$24          1.3135     
 N$26          5.0000     
 N$31          8.1714N    
-N$54          1.2472     
-N$56          3.8747     
-N$62          16.0629N   
-N$66          4.7867N    
-N$68          7.9552N    
-Q             1.8958     
-QB            4.8403     
+N$54          4.3046M    
+N$56          4.0166     
+N$62          56.8036N   
+N$66          157.0013A  
+N$68          28.4018N   
+Q             3.9074N    
+QB            5.0000     
 VDD           5.0000     
 
-   TOTAL POWER DISSIPATION:  17.2255M    WATTS
+   TOTAL POWER DISSIPATION:  329.8934P   WATTS
 
 
 Eldo NEWTON: VNTOL=1.000000e-06 RELTOL=1.000000e-03
 
 Connecting to JWDB server, please wait...
-connected to wdb server : -jwdbhost o405-u01 -jwdbport 38304
+connected to wdb server : -jwdbhost o405-u01 -jwdbport 46787
 
-Compute from 0.000000 Nano to 100.000000 Nano
+Compute from 0.000000 Nano to 200.000000 Nano
 ................................................
-Simulation progress           : 10% (t = 10.0013 N)
-Elapsed CPU time              :  0h  0mn  0s  50    ( 0h  0mn  0s  50)
+Simulation progress           : 10% (t = 20.0012 N)
+Elapsed CPU time              :  0h  0mn  0s 100    ( 0h  0mn  0s 100)
 ................................................
-Simulation progress           : 20% (t = 20.0012 N)
-Elapsed CPU time              :  0h  0mn  0s  50    ( 0h  0mn  0s 100)
+Simulation progress           : 20% (t = 40.0012 N)
+Elapsed CPU time              :  0h  0mn  0s  90    ( 0h  0mn  0s 190)
 ................................................
-Simulation progress           : 30% (t = 30.0012 N)
-Elapsed CPU time              :  0h  0mn  0s  50    ( 0h  0mn  0s 150)
+Simulation progress           : 30% (t = 60.0012 N)
+Elapsed CPU time              :  0h  0mn  0s  90    ( 0h  0mn  0s 280)
 ................................................
-Simulation progress           : 40% (t = 40.0012 N)
-Elapsed CPU time              :  0h  0mn  0s  50    ( 0h  0mn  0s 200)
+Simulation progress           : 40% (t = 80.0012 N)
+Elapsed CPU time              :  0h  0mn  0s  90    ( 0h  0mn  0s 370)
 ................................................
-Simulation progress           : 50% (t = 50.0012 N)
-Elapsed CPU time              :  0h  0mn  0s  40    ( 0h  0mn  0s 240)
+Simulation progress           : 50% (t = 100.0012 N)
+Elapsed CPU time              :  0h  0mn  0s  80    ( 0h  0mn  0s 450)
 ................................................
-Simulation progress           : 60% (t = 60.0012 N)
-Elapsed CPU time              :  0h  0mn  0s  50    ( 0h  0mn  0s 290)
+Simulation progress           : 60% (t = 120.0012 N)
+Elapsed CPU time              :  0h  0mn  0s  90    ( 0h  0mn  0s 540)
 ................................................
-Simulation progress           : 70% (t = 70.0012 N)
-Elapsed CPU time              :  0h  0mn  0s  40    ( 0h  0mn  0s 330)
+Simulation progress           : 70% (t = 140.0012 N)
+Elapsed CPU time              :  0h  0mn  0s  90    ( 0h  0mn  0s 630)
 ................................................
-Simulation progress           : 80% (t = 80.0012 N)
-Elapsed CPU time              :  0h  0mn  0s  50    ( 0h  0mn  0s 380)
+Simulation progress           : 80% (t = 160.0012 N)
+Elapsed CPU time              :  0h  0mn  0s  90    ( 0h  0mn  0s 720)
 ................................................
-Simulation progress           : 90% (t = 90.0012 N)
-Elapsed CPU time              :  0h  0mn  0s  40    ( 0h  0mn  0s 420)
+Simulation progress           : 90% (t = 180.0012 N)
+Elapsed CPU time              :  0h  0mn  0s 100    ( 0h  0mn  0s 820)
 ................................................
-Simulation progress           : 100% (t = 100.0000 N)
-Elapsed CPU time              :  0h  0mn  0s  40    ( 0h  0mn  0s 460)
+Simulation progress           : 100% (t = 200.0000 N)
+Elapsed CPU time              :  0h  0mn  0s  90    ( 0h  0mn  0s 910)
 
 
 ***>Current simulation completed
@@ -156,19 +155,19 @@ Elapsed CPU time              :  0h  0mn  0s  40    ( 0h  0mn  0s 460)
 SIMULATION INFORMATION 
 memory size allocated in bytes 131665920
 Latency: 0.000000%
-average number of newton iterations: 2.695424
+average number of newton iterations: 2.817456
 nb of components: 32
 nb of nodes: 19
-nb of MOS or BIP calls: 167313
-Number of steps computed: 3570
+nb of MOS or BIP calls: 364666
+Number of steps computed: 7201
 
-***>CPU TIME 0s 460ms <***
+***>CPU TIME 0s 910ms <***
 
 ***>MESSAGE SUMMARY: 1 warning
 
-***>GLOBAL CPU TIME 0s 480ms <***
+***>GLOBAL CPU TIME 0s 950ms <***
 
 
-***>GLOBAL ELAPSED TIME 1s <***
+***>GLOBAL ELAPSED TIME 2s <***
 
 

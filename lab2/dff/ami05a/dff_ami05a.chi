@@ -1,12 +1,12 @@
   Run on o405-u01 (Linux 3.13.0-79-generic)
 
-/mgc/anacad2009_2c/aol/bin/eldo_64.exe -i /home/jqp/eecs315/lab2/dff/ami05a/dff_ami05a.cir -o /home/jqp/eecs315/lab2/dff/ami05a/dff_ami05a.chi -nocou -gwl jwdb -wdb_folder -outname dff_ami05a_01 
+/mgc/anacad2009_2c/aol/bin/eldo_64.exe -i /home/jqp/eecs315/lab2/dff/ami05a/dff_ami05a.cir -o /home/jqp/eecs315/lab2/dff/ami05a/dff_ami05a.chi -nocou -gwl jwdb -wdb_folder -outname dff_ami05a_05 
 
 
 
 ***** PRE-PROCESSING ...
 
-1*******24-Feb-16 *******  ELDO 2009.2c (64 bits)  (v7.2_4.1)  *******15:33:36******
+1*******25-Feb-16 *******  ELDO 2009.2c (64 bits)  (v7.2_4.1)  *******09:34:28******
 
 0* Component: /home/jqp/eecs315/lab2/dff  Viewpoint: ami05a
 
@@ -20,7 +20,7 @@
     4  .CONNECT GND 0
     5  
     6  
-    7  * ELDO netlist generated with ICnet by 'jqp' on Wed Feb 24 2016 at 15:33:35
+    7  * ELDO netlist generated with ICnet by 'jqp' on Thu Feb 25 2016 at 09:34:26
     8  
     9  *
    10  * Globals.
@@ -30,34 +30,34 @@
    14  *
    15  * MAIN CELL: Component pathname : /home/jqp/eecs315/lab2/dff
    16  *
-   17          MN18 VDD QB Q VDD N L=2U W=18U
-   18          MN17 VDD N$62 QB VDD N L=2U W=18U
-   19          MP4 N$10 D VDD VDD P L=2U W=27U
-   20          MN15 QB N$62 GND GND N L=2U W=10U
-   21          MN14 VDD BCLK- BCLK VDD N L=2U W=18U
-   22          MN13 VDD CLK BCLK- VDD N L=2U W=18U
-   23          MN12 BCLK BCLK- GND GND N L=2U W=10U
-   24          MN11 BCLK- CLK GND GND N L=2U W=10U
-   25          MN10 N$101 N$62 GND GND N L=2U W=5U
-   26          MN9 N$68 N$101 GND GND N L=2U W=5U
-   27          MN8 N$62 BCLK- N$68 GND N L=2U W=5U
-   28          MN7 N$66 N$26 GND GND N L=2U W=15U
-   29          MN6 N$62 BCLK N$66 GND N L=2U W=15U
-   30          MN5 N$31 N$26 GND GND N L=2U W=5U
-   31          MN4 N$54 N$31 GND GND N L=2U W=5U
-   32          MN3 N$56 D GND GND N L=2U W=15U
-   33          MN2 N$26 BCLK N$54 GND N L=2U W=5U
-   34          MN1 N$26 BCLK- N$56 GND N L=2U W=15U
-   35          MP10 N$101 N$62 VDD VDD P L=2U W=5U
-   36          MP9 N$62 BCLK N$24 VDD P L=2U W=5U
-   37          MP8 N$62 BCLK- N$22 VDD P L=2U W=27U
-   38          MP7 N$24 N$101 VDD VDD P L=2U W=5U
-   39          MP6 N$22 N$26 VDD VDD P L=2U W=27U
-   40          MP5 N$12 N$31 VDD VDD P L=2U W=5U
-   41          MN16 Q QB GND GND N L=2U W=10U
-   42          MP3 N$26 BCLK N$10 VDD P L=2U W=27U
-   43          MP2 N$31 N$26 VDD VDD P L=2U W=5U
-   44          MP1 N$26 BCLK- N$12 VDD P L=2U W=5U
+   17          MP12 BCLK BCLK- VDD VDD P L=2U W=18U
+   18          MP11 BCLK- CLK VDD VDD P L=2U W=18U
+   19          MN15 QB N$62 GND GND N L=2U W=10U
+   20          MP4 N$10 D VDD VDD P L=2U W=27U
+   21          MN12 BCLK BCLK- GND GND N L=2U W=10U
+   22          MN11 BCLK- CLK GND GND N L=2U W=10U
+   23          MN10 N$101 N$62 GND GND N L=2U W=5U
+   24          MN9 N$68 N$101 GND GND N L=2U W=5U
+   25          MN8 N$62 BCLK- N$68 GND N L=2U W=5U
+   26          MN7 N$66 N$26 GND GND N L=2U W=15U
+   27          MN6 N$62 BCLK N$66 GND N L=2U W=15U
+   28          MN5 N$31 N$26 GND GND N L=2U W=5U
+   29          MN4 N$54 N$31 GND GND N L=2U W=5U
+   30          MN3 N$56 D GND GND N L=2U W=15U
+   31          MN2 N$26 BCLK N$54 GND N L=2U W=5U
+   32          MN1 N$26 BCLK- N$56 GND N L=2U W=15U
+   33          MP10 N$101 N$62 VDD VDD P L=2U W=5U
+   34          MP9 N$62 BCLK N$24 VDD P L=2U W=5U
+   35          MP8 N$62 BCLK- N$22 VDD P L=2U W=27U
+   36          MP7 N$24 N$101 VDD VDD P L=2U W=5U
+   37          MP6 N$22 N$26 VDD VDD P L=2U W=27U
+   38          MP5 N$12 N$31 VDD VDD P L=2U W=5U
+   39          MN16 Q QB GND GND N L=2U W=10U
+   40          MP3 N$26 BCLK N$10 VDD P L=2U W=27U
+   41          MP2 N$31 N$26 VDD VDD P L=2U W=5U
+   42          MP1 N$26 BCLK- N$12 VDD P L=2U W=5U
+   43          MP14 Q QB VDD VDD P L=2U W=18U
+   44          MP13 QB N$62 VDD VDD P L=2U W=18U
    45  *
    46  *end
     2  
@@ -146,9 +146,9 @@
     5  ** END OF LIBRARY /mgc/adk3_1/technology/ic/models/ami05.mod
     5  .PROBE TRAN V(D) V(CLK) V(Q) V(QB)
     6  
-    7  VFORCE__D D GND pulse (0 5 0 1e-11 1e-11 1n 2n)
+    7  VFORCE__D D GND pulse (0 5 0 1e-11 1e-11 1.01n 2.02n)
     8  
-    9  VFORCE__CLK CLK GND pulse (0 5 0 1e-11 1e-11 1.01n 2.02n)
+    9  VFORCE__CLK CLK GND pulse (0 5 0 1e-11 1e-11 1n 2n)
    10  
    11  
    12  
@@ -160,7 +160,7 @@
    18  
    19  .TEMP 27 
    20  
-   21  .TRAN  0 100N 0n 
+   21  .TRAN  0 200n 90n 
    22  .END
 
 End of file 
@@ -175,7 +175,7 @@ End of file
 
 Warning 1615: In file "./ami05a/dff_ami05a.cir" line 21:
 +   COMMAND ".TRAN": Tstep can not be <= 0.0.
-+   It is set to Tmax/20.0 = 5.000e-09 s.
++   It is set to Tmax/20.0 = 1.000e-08 s.
 
 ***** 0  error(s). 
 ***** 1  warning(s). 
@@ -209,13 +209,13 @@ Total number of elements            32
 
 Eldo VERSION : ELDO 2009.2c (64 bits) Mon Jun  7 11:38:13 GMT 2010
 
-*** DATE: 24-Feb-2016 15:33:36
+*** DATE: 25-Feb-2016 09:34:28
 
 *** TITLE: * Component: /home/jqp/eecs315/lab2/dff  Viewpoint: ami05a
 
 TEMPERATURE : 27.000000 degrees C
 
-1***************24-Feb-2016 ***********************  ELDO 2009.2c (64 bits)  (v7.2_4.1)  ***********************15:33:36*****************
+1***************25-Feb-2016 ***********************  ELDO 2009.2c (64 bits)  (v7.2_4.1)  ***********************09:34:28*****************
 
 0* Component: /home/jqp/eecs315/lab2/dff
 0****                 MODELS PARAMETERS                                    TEMPERATURE =   27.000 DEG C
@@ -485,11 +485,10 @@ unit3 represents V^-1.m^2
 unit4 represents 1/degK^2
 
 
-Warning: positive bias on Bulk for NMOS MN13
 
 
 
-1***************24-Feb-2016 ***********************  ELDO 2009.2c (64 bits)  (v7.2_4.1)  ***********************15:33:36*****************
+1***************25-Feb-2016 ***********************  ELDO 2009.2c (64 bits)  (v7.2_4.1)  ***********************09:34:28*****************
 
 0* Component: /home/jqp/eecs315/lab2/dff  Viewpoint: ami05a
 0****                 OPTION SUMMARY                                        TEMPERATURE =   27.000 DEG C
@@ -559,14 +558,14 @@ ULOGIC         = 0
 
 
 
-***> DC CPU TIME 0s 000ms <***
+***> DC CPU TIME 0s 010ms <***
 
-DC:21 iterations FOR DC analysis
-
-
+DC:12 iterations FOR DC analysis
 
 
-1***************24-Feb-2016 ***********************  ELDO 2009.2c (64 bits)  (v7.2_4.1)  ***********************15:33:36*****************
+
+
+1***************25-Feb-2016 ***********************  ELDO 2009.2c (64 bits)  (v7.2_4.1)  ***********************09:34:28*****************
 
 0* Component: /home/jqp/eecs315/lab2/dff  Viewpoint: ami05a
 0****                 INITIAL TRANSIENT SOLUTION                           TEMPERATURE =   27.000 DEG C
@@ -575,12 +574,12 @@ DC:21 iterations FOR DC analysis
 
 
   NODE         VOLTAGE      NODE         VOLTAGE      NODE         VOLTAGE    
-BCLK          1.8958      BCLK-         4.8403      CLK           0.0000      
+BCLK          3.9074N     BCLK-         5.0000      CLK           0.0000      
 D             0.0000      N$10          5.0000      N$101         5.0000      
-N$12          5.0000      N$22          4.9925      N$24          2.9200      
-N$26          5.0000      N$31          8.1714N     N$54          1.2472      
-N$56          3.8747      N$62          16.0629N    N$66          4.7867N     
-N$68          7.9552N     Q             1.8958      QB            4.8403      
+N$12          5.0000      N$22          4.9998      N$24          1.3135      
+N$26          5.0000      N$31          8.1714N     N$54          4.3046M     
+N$56          4.0166      N$62          56.8036N    N$66          157.0013A   
+N$68          28.4018N    Q             3.9074N     QB            5.0000      
 VDD           5.0000      
 
 
@@ -588,11 +587,11 @@ VDD           5.0000
 
 NAME      CURRENT      VOLTAGE      POWER        
 VGDMODEL   0.0000       0.0000       0.0000      
-VDDMODEL  -3.4451M      5.0000      -17.2255M    
+VDDMODEL  -65.9787P     5.0000      -329.8934P   
 VFORCE__D   0.0000       0.0000       0.0000      
 VFORCE__CLK   0.0000       0.0000       0.0000      
 
-   TOTAL POWER DISSIPATION:  17.2255M    WATTS
+   TOTAL POWER DISSIPATION:  329.8934P   WATTS
 
 
 
@@ -601,39 +600,39 @@ VFORCE__CLK   0.0000       0.0000       0.0000
 Eldo NEWTON: VNTOL=1.000000e-06 RELTOL=1.000000e-03
 
 ................................................
-Simulation progress           : 10% (t = 10.0013 N)
-Elapsed CPU time              :  0h  0mn  0s  50    ( 0h  0mn  0s  50)
+Simulation progress           : 10% (t = 20.0012 N)
+Elapsed CPU time              :  0h  0mn  0s 100    ( 0h  0mn  0s 100)
 ................................................
-Simulation progress           : 20% (t = 20.0012 N)
-Elapsed CPU time              :  0h  0mn  0s  50    ( 0h  0mn  0s 100)
+Simulation progress           : 20% (t = 40.0012 N)
+Elapsed CPU time              :  0h  0mn  0s  90    ( 0h  0mn  0s 190)
 ................................................
-Simulation progress           : 30% (t = 30.0012 N)
-Elapsed CPU time              :  0h  0mn  0s  50    ( 0h  0mn  0s 150)
+Simulation progress           : 30% (t = 60.0012 N)
+Elapsed CPU time              :  0h  0mn  0s  90    ( 0h  0mn  0s 280)
 ................................................
-Simulation progress           : 40% (t = 40.0012 N)
-Elapsed CPU time              :  0h  0mn  0s  50    ( 0h  0mn  0s 200)
+Simulation progress           : 40% (t = 80.0012 N)
+Elapsed CPU time              :  0h  0mn  0s  90    ( 0h  0mn  0s 370)
 ................................................
-Simulation progress           : 50% (t = 50.0012 N)
-Elapsed CPU time              :  0h  0mn  0s  40    ( 0h  0mn  0s 240)
+Simulation progress           : 50% (t = 100.0012 N)
+Elapsed CPU time              :  0h  0mn  0s  80    ( 0h  0mn  0s 450)
 ................................................
-Simulation progress           : 60% (t = 60.0012 N)
-Elapsed CPU time              :  0h  0mn  0s  50    ( 0h  0mn  0s 290)
+Simulation progress           : 60% (t = 120.0012 N)
+Elapsed CPU time              :  0h  0mn  0s  90    ( 0h  0mn  0s 540)
 ................................................
-Simulation progress           : 70% (t = 70.0012 N)
-Elapsed CPU time              :  0h  0mn  0s  40    ( 0h  0mn  0s 330)
+Simulation progress           : 70% (t = 140.0012 N)
+Elapsed CPU time              :  0h  0mn  0s  90    ( 0h  0mn  0s 630)
 ................................................
-Simulation progress           : 80% (t = 80.0012 N)
-Elapsed CPU time              :  0h  0mn  0s  50    ( 0h  0mn  0s 380)
+Simulation progress           : 80% (t = 160.0012 N)
+Elapsed CPU time              :  0h  0mn  0s  90    ( 0h  0mn  0s 720)
 ................................................
-Simulation progress           : 90% (t = 90.0012 N)
-Elapsed CPU time              :  0h  0mn  0s  40    ( 0h  0mn  0s 420)
+Simulation progress           : 90% (t = 180.0012 N)
+Elapsed CPU time              :  0h  0mn  0s 100    ( 0h  0mn  0s 820)
 ................................................
-Simulation progress           : 100% (t = 100.0000 N)
-Elapsed CPU time              :  0h  0mn  0s  40    ( 0h  0mn  0s 460)
+Simulation progress           : 100% (t = 200.0000 N)
+Elapsed CPU time              :  0h  0mn  0s  90    ( 0h  0mn  0s 910)
 
 
 
-1***************24-Feb-2016 ***********************  ELDO 2009.2c (64 bits)  (v7.2_4.1)  ***********************15:33:36*****************
+1***************25-Feb-2016 ***********************  ELDO 2009.2c (64 bits)  (v7.2_4.1)  ***********************09:34:28*****************
 
 0* Component: /home/jqp/eecs315/lab2/dff  Viewpoint: ami05a
 0****                 ACCOUNTING INFORMATION                                TEMPERATURE =   27.000 DEG C
@@ -655,15 +654,15 @@ Elapsed CPU time              :  0h  0mn  0s  40    ( 0h  0mn  0s 460)
 
     NUMTTP  NUMRTP  LTERTP  LTERTPNW NWNOCON
 
-      3570      58      58      58       0
+      7201     189     189     189       0
 
   DIGITAL  INWCALL    ITERNW   MEMSIZE
 
-        0     9800 2.695e+00  131665920
+        0    20833 2.817e+00  131665920
 
     NDEVCALL       NKIRCH  NMAXCALL      ITERM     LATENCY
 
-      167313            0         5   8.24e-01   0.000e+00%
+      364666            0         6   8.19e-01   0.000e+00%
 
 
   TRANSIENT JOB TIME                 0
@@ -671,18 +670,18 @@ Elapsed CPU time              :  0h  0mn  0s  40    ( 0h  0mn  0s 460)
 
 
 
-***>CPU TIME 0s 460ms <***
+***>CPU TIME 0s 910ms <***
 
 ***>MESSAGE SUMMARY: 1 warning
 
-***>GLOBAL CPU TIME 0s 480ms <***
+***>GLOBAL CPU TIME 0s 950ms <***
 
 
-***>GLOBAL ELAPSED TIME 1s <***
+***>GLOBAL ELAPSED TIME 2s <***
 
 
-  Job started at 24-Feb-2016 15:33:36
-  Job end at     24-Feb-2016 15:33:37
+  Job started at 25-Feb-2016 09:34:28
+  Job end at     25-Feb-2016 09:34:30
 
   Run on o405-u01 (Linux 3.13.0-79-generic)
 

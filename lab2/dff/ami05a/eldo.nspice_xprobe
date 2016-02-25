@@ -8,14 +8,14 @@ Globals
    VDD VDD
 End Globals
 
-Cell NMOS4
+Cell PMOS4
    Pin D D
    Pin G G
    Pin S S
    Pin B B
 End Cell
 
-Cell PMOS4
+Cell NMOS4
    Pin D D
    Pin G G
    Pin S S
@@ -47,12 +47,10 @@ Cell #top#
    Net Q Q
    Global GND GND
    Global VDD VDD
-   Inst MN18 MN18 NMOS4
-   Inst MN17 MN17 NMOS4
-   Inst MP4 MP4 PMOS4
+   Inst MP12 MP12 PMOS4
+   Inst MP11 MP11 PMOS4
    Inst MN15 MN15 NMOS4
-   Inst MN14 MN14 NMOS4
-   Inst MN13 MN13 NMOS4
+   Inst MP4 MP4 PMOS4
    Inst MN12 MN12 NMOS4
    Inst MN11 MN11 NMOS4
    Inst MN10 MN10 NMOS4
@@ -75,5 +73,7 @@ Cell #top#
    Inst MP3 MP3 PMOS4
    Inst MP2 MP2 PMOS4
    Inst MP1 MP1 PMOS4
+   Inst MP14 MP14 PMOS4
+   Inst MP13 MP13 PMOS4
 End Cell
 

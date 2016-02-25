@@ -1,4 +1,4 @@
-* ELDO netlist generated with ICnet by 'jqp' on Wed Feb 24 2016 at 15:33:35
+* ELDO netlist generated with ICnet by 'jqp' on Thu Feb 25 2016 at 09:34:26
 
 *
 * Globals.
@@ -8,12 +8,10 @@
 *
 * MAIN CELL: Component pathname : /home/jqp/eecs315/lab2/dff
 *
-        MN18 VDD QB Q VDD n L=2u W=18u
-        MN17 VDD N$62 QB VDD n L=2u W=18u
-        MP4 N$10 D VDD VDD p L=2u W=27u
+        MP12 BCLK BCLK- VDD VDD p L=2u W=18u
+        MP11 BCLK- CLK VDD VDD p L=2u W=18u
         MN15 QB N$62 GND GND n L=2u W=10u
-        MN14 VDD BCLK- BCLK VDD n L=2u W=18u
-        MN13 VDD CLK BCLK- VDD n L=2u W=18u
+        MP4 N$10 D VDD VDD p L=2u W=27u
         MN12 BCLK BCLK- GND GND n L=2u W=10u
         MN11 BCLK- CLK GND GND n L=2u W=10u
         MN10 N$101 N$62 GND GND n L=2u W=5u
@@ -36,5 +34,7 @@
         MP3 N$26 BCLK N$10 VDD p L=2u W=27u
         MP2 N$31 N$26 VDD VDD p L=2u W=5u
         MP1 N$26 BCLK- N$12 VDD p L=2u W=5u
+        MP14 Q QB VDD VDD p L=2u W=18u
+        MP13 QB N$62 VDD VDD p L=2u W=18u
 *
 .end
